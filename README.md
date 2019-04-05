@@ -35,7 +35,7 @@ Edit this document to include your answers after each question. Make sure to lea
     - A method is simply a function but that is either stored or created inside of an Object or Class. This is why I can create an object "objectEx" and call "objectEx.method".
     
 3. What is closure?
-    - Closure is simply that a function is able to remember and access its lexical scope even when that function is executing outside its lexical scope! So if I created a function "x" and created an variable inside that funciton, I could still call an OUTSIDE function on that variable, but not vice-versa. 
+    - Closure is simply that a function is able to remember and access its lexical scope even when that function is executing outside its lexical scope! In other words, its a feature in JavaScript where an inner function has access to the outer function's variables (the scope of an outer function).
 
 4. Describe the four rules of the 'this' keyword.
  1a. Window Binding: When in the global scope, the value of “this” will be the window/console Object
@@ -74,7 +74,7 @@ Your finished project must include all of the following requirements:
 
 ## Task 1: Objects and Arrays
 Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+* [x] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
